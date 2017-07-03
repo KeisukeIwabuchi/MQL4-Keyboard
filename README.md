@@ -1,19 +1,19 @@
 # MQL4-Keyboard
-チャート上でのキーボード操作を管理するためのモジュール
+Module that manages keyboard operations on the chart.
 
 
 ## Install
-1. Keyboard.mqhをダウンロード
-2. データフォルダを開き、/MQL4/Includes/mql4_modules/Keyboard/Keyboard.mqhとして保存
+1. Download Keyboard.mqh
+2. Save the file to /MQL4/Includes/mql4_modules/Keyboard/Keyboard.mqh
 
 
 ## Usage
-1. Keyboard.mqhを読み込む
-2. Keyboard::KeyにOnChartEventのlparamを渡す
-3. 押されたキーが返ってくる
+1. Include Keyboard.mqh
+2. Pass lparam (this is a OnChartEvent function argument) as an argument to the Keyboard::Key.
+3. Keyboard::Key returns which key was pressed.
 
-### Keyメソッド
-キーが押された際にKeyメソッドを実行してlparamを渡すと、どのキーが押されたのかを返す。
+### Key method
+Keyboard::Key tells you which key was pressed.
 
 ```cpp
 void OnChartEvent(const int id, 
