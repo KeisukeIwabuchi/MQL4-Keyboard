@@ -4,7 +4,7 @@ Module that manages keyboard operations on the chart.
 
 ## Install
 1. Download Keyboard.mqh
-2. Save the file to /MQL4/Includes/mql4_modules/Keyboard/Keyboard.mqh
+2. Save the file to /MQL4/Include/mql4_modules/Keyboard/Keyboard.mqh
 
 
 ## Usage
